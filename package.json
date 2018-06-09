@@ -1,0 +1,24 @@
+{
+  "name": "js-chain",
+  "version": "1.0.0",
+  "description": "Blockchain peer-2-peer network app build using node",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node ./app",
+    "dev": "nodemon ./app"
+  },
+  "keywords": [],
+  "author": "Adam Colpitts",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.1.0",
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "ws": "^5.2.0"
+  }
+}
